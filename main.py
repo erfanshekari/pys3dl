@@ -33,7 +33,7 @@ def main(bucket: str, prefix: str = None, dl_path: str = '.') -> None:
         make_directories(object.key, dl_path)
         download_abs_path = os.path.join(dl_path, object.key)
         bucket_.download_file(object.key, download_abs_path)
-        break
+        
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
