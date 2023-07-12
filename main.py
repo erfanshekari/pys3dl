@@ -36,6 +36,7 @@ def main(bucket: str, prefix: str = None, dl_path: str = '.') -> None:
         
 
 if __name__ == '__main__':
+    
     parser = argparse.ArgumentParser(
         prog='PYS3DL',
         description='Download files and directories from s3 compatible storages',
