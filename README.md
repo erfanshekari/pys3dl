@@ -9,3 +9,7 @@ export S3_REGION=[s3-region]
 export S3_ACCESS_KEY=[s3-access-key]
 export S3_SECRET_KEY=[s3-secret-key]
 ~~~
+# Download
+~~~shell
+python main.py -b BUCKET -p PREFIX -d DESTENATION
+~~~
